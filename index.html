@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="cal-container">
+      <div class="result-input">
+        <textarea id="result" disabled class="result" rows="2"></textarea>
+      </div>
+      <div class="cal-btn">
+        <input
+          class="calculator"
+          onclick="calculator('&#40;')"
+          type="button"
+          value="("
+        />
+        <input
+          class="calculator"
+          onclick="calculator('&#41;')"
+          type="button"
+          value=")"
+        />
+        <input
+          class="calculator"
+          onclick="calculator('%')"
+          type="button"
+          value="%"
+        />
+        <input
+          class="calculator"
+          id="clear"
+          onclick="clearAll('')"
+          type="button"
+          value="AC"
+        />
+      </div>
+      <div class="cal-btn">
+        <input
+          class="calculator"
+          onclick="calculator('7')"
+          type="button"
+          value="7"
+        />
+        <input
+          class="calculator"
+          onclick="calculator('8')"
+          type="button"
+          value="8"
+        />
+        <input
+          class="calculator"
+          onclick="calculator('9')"
+          type="button"
+          value="9"
+        />
+        <input
+          class="calculator"
+          onclick="calculator('/')"
+          type="button"
+          value="&divide;"
+        />
+      </div>
+      <div class="cal-btn">
+        <input
+          class="calculator"
+          onclick="calculator('4')"
+          type="button"
+          value="4"
+        />
+        <input
+          class="calculator"
+          onclick="calculator('5')"
+          type="button"
+          value="5"
+        />
+        <input
+          class="calculator"
+          onclick="calculator('6')"
+          type="button"
+          value="6"
+        />
+        <input
+          class="calculator"
+          onclick="calculator('*')"
+          type="button"
+          value="&times;"
+        />
+      </div>
+      <div class="cal-btn">
+        <input
+          class="calculator"
+          onclick="calculator('1')"
+          type="button"
+          value="1"
+        />
+        <input
+          class="calculator"
+          onclick="calculator('2')"
+          type="button"
+          value="2"
+        />
+        <input
+          class="calculator"
+          onclick="calculator('3')"
+          type="button"
+          value="3"
+        />
+        <input
+          class="calculator"
+          onclick="calculator('-')"
+          type="button"
+          value="&minus;"
+        />
+      </div>
+      <div class="cal-btn mb-0">
+        <input
+          class="calculator"
+          onclick="calculator('0')"
+          type="button"
+          value="0"
+        />
+        <input
+          class="calculator"
+          onclick="calculator('.')"
+          type="button"
+          value="."
+        />
+        <input
+          class="calculator ecual"
+          onclick="answer()"
+          type="button"
+          value="="
+        />
+        <input
+          class="calculator"
+          onclick="calculator('&plus;')"
+          type="button"
+          value="&plus;"
+        />
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

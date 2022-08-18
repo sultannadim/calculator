@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #646262;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DynaPuff", cursive;
+  min-height: 100vh;
+}
+.cal-container {
+  margin: 20px 0;
+  width: 500px;
+  padding: 30px;
+  border-radius: 30px;
+  background: #646262;
+  box-shadow: 20px 20px 60px #555353, -20px -20px 60px #737171;
+}
+.result {
+  padding: 10px;
+  min-height: 100px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: #b2aeae;
+  box-shadow: inset 20px 20px 60px #979494, inset -20px -20px 60px #cdc8c8;
+  font-size: 35px;
+  font-weight: 600;
+  color: #f0eeee;
+  margin-bottom: 50px;
+  resize: none;
+  word-wrap: break-word;
+}
+.cal-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.calculator {
+  width: 24%;
+  padding: 15px;
+  border-radius: 10px;
+  background: #646262;
+  box-shadow: 20px 20px 60px #757575, -20px -20px 60px #737171;
+  border: none;
+  color: #f0eeee;
+  font-size: 20px;
+  font-weight: 600;
+}
+.ecual {
+  background-color: #b2aeae;
+  box-shadow: inset 20px 20px 60px #979494, inset -20px -20px 60px #cdc8c8;
+  color: #f0eeee;
+}
+
+@media (max-width: 550px) {
+  .cal-container {
+    width: 90%;
+    padding: 30px 20px;
+  }
+  .result {
+    margin-bottom: 30px;
+  }
+  .mb-0 {
+    margin-bottom: 0px;
+  }
+}
